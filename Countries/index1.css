@@ -1,0 +1,161 @@
+body {
+    background-image: url("background1.png");
+    background-clip: border-box;
+    background-attachment: fixed;
+    font-family:'Times New Roman', Times, serif;
+}
+.intro {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    background-clip: border-box;
+    margin: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: rgba(48, 48, 48, 0.5);
+}
+.main {
+    display:flex;
+    text-align: center;
+}
+.left {
+    float: left;
+    width: 30%;
+    padding: 25px;
+    border-right-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+.right {
+    float: left;
+    width: 70%;
+    
+}
+.right h2 {
+    font-size: 40px;
+}
+
+.right img {
+    max-width: 50%;
+}
+.left img {
+    max-width: 100%;
+
+}
+.president {
+    padding: 50px;
+    background-clip: border-box;
+    background-color: rgba(48, 48, 48, 0.5);
+    margin-bottom: 75px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+.cities {
+    padding: 50px;
+    background-clip: border-box;
+    background-color: rgba(48, 48, 48, 0.5);
+    margin-bottom: 75px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+.table {
+    padding-top: 50px;
+}
+.president table {
+    border-collapse: collapse;
+}
+.president table, th, td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.president table th {
+    background-color: rgba(204, 0, 0, 0.600);
+}
+.president table td {
+    background-color: rgba(240, 248, 255, 0.600);
+}
+.president img {
+    box-shadow: 3px 3px 7px;
+}
+.cities table {
+    border-collapse: collapse;
+    min-width: 80%;
+    
+}
+.cities table, th, td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.cities table th {
+    background-color: rgba(204, 0, 0, 0.600);
+}
+.cities table td {
+    background-color: rgba(240, 248, 255, 0.600);
+}
+.cities img {
+    box-shadow: 3px 3px 7px;
+}
+.info {
+    padding: 30px;
+    background-clip: border-box;
+    background-color: rgba(48, 48, 48, 0.5);
+    margin: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+.info img {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 3px 3px 7px;
+}
+.history {
+    padding: 30px;
+    background-clip: border-box;
+    background-color: rgba(48, 48, 48, 0.5);
+    margin: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+.history p{
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    border-collapse: inherit;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 250, 250, 0.5);
+    margin-top: 50px;
+}
+li {
+    padding: 5px;
+}
+table {
+    width: 100%;
+    max-width: 100%
+}
+.part2 {
+    padding-top: 50px;
+}
+.part1 {
+    padding-top: 50px;
+}
+.button {
+    text-align: center;
+    font-size: 20px;
+}
+.button a {
+    color: red;
+}

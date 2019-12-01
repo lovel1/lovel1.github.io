@@ -1,0 +1,146 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-clip: padding-box;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(240, 248, 255, 0.100);
+    background-clip: padding-box;
+    margin: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+.main {
+    display: inline-flex;
+    text-align: center;
+}
+.left {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    border-right-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+.right {
+    float: left;
+    width: 75%;
+}
+.right img {
+    max-width: 50%;
+}
+.left img {
+    max-width: 100%;
+
+}
+.president {
+    padding: 50px;
+    background-clip: padding-box;
+    background-color: rgba(240, 248, 255, 0.100);
+    margin-bottom: 75px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+.cities {
+    padding: 50px;
+    background-clip: padding-box;
+    background-color: rgba(240, 248, 255, 0.100);
+    margin-bottom: 75px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+.table {
+    padding-top: 50px;
+}
+.president table {
+    border-collapse: collapse;
+}
+.president table, th, td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.president table th {
+    background-color: rgba(204, 0, 0, 0.600);
+}
+.president table td {
+    background-color: rgba(240, 248, 255, 0.600);
+}
+.president img {
+    box-shadow: 3px 3px 7px;
+}
+.cities table {
+    border-collapse: collapse;
+}
+.cities table, th, td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.cities table th {
+    background-color: rgba(204, 0, 0, 0.600);
+}
+.cities table td {
+    background-color: rgba(240, 248, 255, 0.600);
+}
+.cities img {
+    box-shadow: 3px 3px 7px;
+}
+.info {
+    padding: 30px;
+    background-clip: padding-box;
+    background-color: rgba(240, 248, 255, 0.100);
+    margin: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+.info img {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 3px 3px 7px;
+}
+.history {
+    padding: 30px;
+    background-clip: padding-box;
+    background-color: rgba(240, 248, 255, 0.100);
+    margin: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 7px;
+}
+ul {
+    list-style-type: none;
+    border-collapse: inherit;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(240, 248, 255, 0.600);
+    margin-top: 50px;
+}
+li {
+    padding: 5px;
+}
+
+.button {
+    text-align: center;
+    font-size: 20px;
+}
+.button a {
+    color: red;
+}
+
+
