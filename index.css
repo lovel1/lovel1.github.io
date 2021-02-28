@@ -97,6 +97,7 @@ body {
   border-radius: 40px;
   font-weight: bold;
   background-color: #16161600;
+  text-decoration: none;
 }
 
 .my-btn:hover {
